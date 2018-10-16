@@ -1,0 +1,30 @@
+package tp1;
+
+import java.util.Scanner;
+
+public class Restaurant {
+	 static double note_qn,note_s,note_se;
+	   String nom;
+	static String h;
+	   static int i,id;
+	   public static double note( int i,double note_qn,double note_s,double note_se){
+		   double moy=(note_se+note_s+note_qn)/3;
+		   return moy;
+	   }
+	 
+
+	public static void main(String[]arcs){
+	           
+			
+			   while(i>0){
+				   System.out.println("le visiteur numéro :" +i+" donne la note de service est: "+note_se+
+						  "la note de salle est: "+note_s+" la note de qualité de nourriture est: "+note_qn+"" +
+						  		"le moyenne de ls note est " +note(id,i, i, i)  );
+				 
+			  
+		   }
+			   
+			   
+  
+   
+}}
